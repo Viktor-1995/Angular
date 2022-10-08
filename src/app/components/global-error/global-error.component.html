@@ -1,0 +1,8 @@
+<div class="h-[50px] flex justify-center aligns-center bg-red-600">
+{{ errorService.error$ | async }}
+
+
+<button class="absolute top-5 right-5 text-white top-2"
+        (click)="errorService.clear"
+>&times;</button>
+</div>
